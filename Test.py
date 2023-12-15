@@ -2,17 +2,12 @@
 #
 # Won Yong Ha
 #
-# VirtualData.py
+# Test.py
 #
 # Create: Dec 12 2023
 #
 ################################
 
-import random
+import VirtualData
 
-class VirtualData:
-
-	def IMUData():
-	# Return virtual IMU data
-
-		return 0
+print("A")
