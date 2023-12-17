@@ -8,12 +8,12 @@
 #
 ################################
 
-import random
+import random as rd
 
 class VirtualData:
 
 	def IMUData(self):
 		# Return virtual IMU data
-		print("AA")
+		print(rd.random())
 
 		return 0
