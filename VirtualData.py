@@ -12,7 +12,7 @@ import random
 
 class VirtualData:
 
-	def IMUData():
+	def IMUData(self):
 		# Return virtual IMU data
 		print("AA")
 

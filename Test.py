@@ -8,7 +8,7 @@
 #
 ################################
 
-import VirtualData
+from VirtualData import *
 
 def main():
     VD = VirtualData()
