@@ -10,4 +10,10 @@
 
 import VirtualData
 
-print("A")
+def main():
+    VD = VirtualData()
+
+    VD.IMUData()
+
+if __name__ == "__main__":
+    main()
