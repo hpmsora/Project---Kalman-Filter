@@ -9,6 +9,7 @@
 ################################
 
 import random as rd
+import pandas as pd
 
 class VirtualData:
 
@@ -17,3 +18,10 @@ class VirtualData:
 		print(rd.random())
 
 		return 0
+
+	def readData(self, _fileName: str):
+		try:
+			pd.read_csv('/data/' + _fileName)
+			return pd.read_csv('/data/' + _fileName)
+		except:
+			return "error"

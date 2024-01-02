@@ -11,9 +11,17 @@
 from VirtualData import *
 
 def main():
+    IMU_virtual_data_test()
+
+def IMU_virtual_data_test():
     VD = VirtualData()
 
+    fileName = 'imu_sensor_data.csv'
+
     VD.IMUData()
+
+    virtualData = VD.readData(fileName)
+    print(VirtualData)
 
 if __name__ == "__main__":
     main()
