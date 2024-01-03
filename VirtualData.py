@@ -21,7 +21,8 @@ class VirtualData:
 
 	def readData(self, _fileName: str):
 		try:
-			pd.read_csv('/data/' + _fileName)
-			return pd.read_csv('/data/' + _fileName)
+			data = pd.read_csv('data/' + _fileName)
+			return data
 		except:
+			print("Import Error")
 			return "error"

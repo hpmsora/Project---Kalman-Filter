@@ -9,6 +9,7 @@
 ################################
 
 from VirtualData import *
+import pandas as pd
 
 def main():
     IMU_virtual_data_test()
@@ -21,7 +22,8 @@ def IMU_virtual_data_test():
     VD.IMUData()
 
     virtualData = VD.readData(fileName)
-    print(VirtualData)
+    print(virtualData)
+    print("AA")
 
 if __name__ == "__main__":
     main()
